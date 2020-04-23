@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <title>Brand-Producto</title>
+  </head>
+  <!-- Aqui cierra el head -->
+  <body>
+    <!-- Aqui empieza el navbar -->
+    <nav class="fadeInDown">
+      <div class="brand_image fadeIn">
+        <a href="index.html"
+          ><img src="./images/logo.png" alt="logo_brand"
+        /></a>
+      </div>
+      <div class="nav_options">
+        <ul>
+          <li><a href="#">FAQS</a></li>
+          <li><a href="#">Productos</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Aqui termina el navbar -->
+    <!-- Aqui empieza el formulario Venta -->
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="modulo_pago">
+            <div class="modulo_pago_images">
+              <img src="./images/box2.png" alt="" />
+            </div>
+            <h3>Producto 1</h3>
+            <p>
+              Miles de productos hay en el mercado, pero nada como una caja con
+              gatitos, Miles de productos hay en el mercado, pero nada como una
+              caja con gatitos
+            </p>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="modulo_pago">
+            <form
+              action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BYNKV284CUNBG "
+              method="post"
+            >
+              <label for="name">Nombre:</label>
+              <br />
+              <input type="text" placeholder="" name="name" class="data" />
+              <br />
+              <label for="email">Email:</label>
+              <br />
+              <input type="text" placeholder="" name="email" class="data" />
+              <br />
+              <label for="phone">Telefono:</label>
+              <br />
+              <input type="text" placeholder="" name="phone" class="data" />
+              <br />
+              <input
+                type="submit"
+                class="main_button"
+                name="submit"
+                value="Confirmar Pago"
+              />
+              <br />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Aqui empieza el footer -->
+    <footer>
+      <div class="option">Terminos y condiciones</div>
+      <div class="option contact">
+        <a href="mailto:info@juanqp.com">info@juanqp.com</a>
+      </div>
+    </footer>
+    <!-- Aqui termina el footer -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
